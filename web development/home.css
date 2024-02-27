@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    font-family: arial;
+     border: border-box; 
+
+}
+.top-main-panel{
+    height: 50px;
+    width: 100%;
+    font-family: poppins;
+    color: white;
+    font-size: large;
+    background-color: #096060;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.top-panel{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+.logo-icon{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.top-login{
+    justify-items: center;
+    display: flex;
+    padding-left: 15px;
+}
+.top-login p{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+
+}
+.top-resister{
+    display: flex;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+.top-resister p{
+    padding-left: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/* navbar */
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    background-color: #b4dce1;
+    display: flex;
+    color: black;
+    font-family: poppins;
+    font-weight: 550;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    height: 60px;
+    width: 30%;
+}
+.logo{
+    background-image: url(touristlogo.jpg);
+    height: 60px;
+    width: 10%;
+    background-size: cover;
+}
+.nav-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.nav-ops {
+    width: 70%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+/* hero picture */
+.hero-sec{
+    background-image: url(hero-picture.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+.hero-picture{
+    width: 100%;
+    display: flex;
+    
+}
